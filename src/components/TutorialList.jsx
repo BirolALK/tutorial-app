@@ -9,7 +9,7 @@ const TutorialList = ({ tutor, getTutorials }) => {
 
   
   const deleteTutorial = async (id) => {
-    const url = "https://tutorials-api-cw.herokuapp.com/api/tutorials";
+    const url = "https://635c2ad466f78741d59357c1.mockapi.io/api/tasks";
     try {
       await axios.delete(`${url}/${id}`);
     } catch (error) {
