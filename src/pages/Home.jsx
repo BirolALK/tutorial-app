@@ -16,8 +16,7 @@ const Home = () => {
       setTutorials(data);
     } catch (error) {
       console.log(error);
-    }
-  };
+    } };
 
   //? didmount
   useEffect(() => {
